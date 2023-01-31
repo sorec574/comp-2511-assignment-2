@@ -1,0 +1,81 @@
+/* Global CSS variables */
+:root {
+  --spacing-company: 3rem;
+  --font-weight: 400;
+  --border-radius: 0;
+}
+
+/* Typography */
+h2,
+h3,
+hgroup > :last-child {
+  font-weight: 400;
+}
+
+small {
+  color: var(--muted-color);
+}
+
+/* Header */
+.hero {
+  background-color: #394046;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  padding: var(--spacing-company) 0;
+}
+
+header hgroup > :last-child {
+  color: var(--h3-color);
+}
+
+header hgroup {
+  margin-bottom: var(--spacing-company);
+}
+
+/* Nav */
+summary[role="link"].contrast:is([aria-current],:hover,:active,:focus) {
+  background-color: transparent;
+  color: var(--contrast-hover);
+}
+
+/* Main */
+@media (min-width: 992px) {
+  main .grid {
+    grid-column-gap: var(--spacing-company);
+    grid-template-columns: auto 25%;
+  }
+}
+
+form.grid {
+  grid-row-gap: 0;
+}
+
+/* Aside nav */
+aside img {
+  margin-bottom: 0.25rem;
+}
+
+aside p {
+  margin-bottom: var(--spacing-company);
+  line-height: 1.25;
+}
+.max_width_24 {
+  max-width: 24%;
+}
+.mt-0 {
+  margin-top: 0px;
+}
+.bolts {
+    color: white;
+    margin-right: 20px;
+}
+input {
+  background-color: rgb(231 234 236);;
+}
+.required:after {
+    content:" *";
+    color: red;
+  }
