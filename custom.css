@@ -18,9 +18,12 @@ small {
 
 /* Header */
 .hero {
-  background-color: #394046;
+  background-color: #171f27;
   background-position: center;
   background-size: cover;
+}
+.title {
+  text-shadow: 1px 2px 3px #1dcaad;
 }
 
 header {
