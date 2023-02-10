@@ -101,7 +101,7 @@ a:hover {
   color: rgb(183, 9, 252);
 }
 input {
-  background-color: rgb(231 234 236);;
+  background-color:rgb(44, 67, 87);;
 }
 .required:after {
     content:" *";
