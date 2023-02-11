@@ -180,8 +180,28 @@
 
           <!-- Text -->
           <label for="text" class="required">Name</label>
-          <input type="text" id="text" name="text" placeholder="Text">
+          <input type="text" id="text" name="text" placeholder="Text" maxlength="50" required>
 
+          <!--email-->
+          <label class="required">Email
+            <input name="email" type="email" size="25" maxlength="64" pattern="[a-z0-9.!+'#/_%-^|]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+          </label>
+          <!--phone number-->
+          <label>Phone Number
+            <input name="number" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="8014567890">
+
+          </label>
+          <!--Radio buttons-->
+          <p>
+          Would You Like To Recieve Newsletters?
+          <label> Yes
+            <input name="updates" type="radio" value="Yes" >
+            
+          </label>
+          <label> No
+            <input name="updates" type="radio" value="No">
+          </label>
+        </p>
           <!-- Select -->
           <label for="select" class="required">Article helpful</label>
           <select id="select" name="select" required>
@@ -235,7 +255,8 @@
           </div>
 
           <!-- Buttons -->
-          <input type="submit" value="Submit" onclick="event.preventDefault()">
+          <input type="submit" value="Submit" >
+          <input type="reset" value="Clear" >
 
         </form>
       </section><!-- ./ Form elements-->
