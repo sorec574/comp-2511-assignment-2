@@ -100,6 +100,11 @@ a:hover {
   background-color: #ff63dd;
   color: rgb(183, 9, 252);
 }
+/*focus menu colour change*/
+.active, .academics, .arts, .sports {
+  background-color: #1dcaad;
+  color: #68eb9f;
+}
 input {
   background-color:rgb(44, 67, 87);;
 }
