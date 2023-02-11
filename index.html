@@ -174,17 +174,17 @@
         </figure>
       </section><!-- ./ Tables -->
 
-      <section id="form">
-        <form>
+      <section id="form"> <!--insert email you want form submitted to-->
+        <form method="post" action="mailto:insertemail@here.com">
           <h2>Provide Feedback</h2>
 
-          <!-- Text -->
+          <!-- Text Name-->
           <label for="text" class="required">Name</label>
           <input type="text" id="text" name="text" placeholder="Text" maxlength="50" required>
 
           <!--email-->
           <label class="required">Email
-            <input name="email" type="email" size="25" maxlength="64" pattern="[a-z0-9.!+'#/_%-^|]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+            <input name="email" type="email" size="25" maxlength="64" pattern="[a-z0-9.!+'#/_%-^|]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="youremail@domain.com" required>
           </label>
           <!--phone number-->
           <label>Phone Number
@@ -238,7 +238,7 @@
             </fieldset>
 
           </div>
-          
+
           <!--Radio buttons-->
           <p>
             Would You Like To Recieve Newsletters?
