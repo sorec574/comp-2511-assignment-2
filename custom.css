@@ -65,6 +65,11 @@ aside p {
   margin-bottom: var(--spacing-company);
   line-height: 1.25;
 }
+.right {
+  margin-bottom: 0.25rem;
+  float: right;
+}
+
 .max_width_40 {
   max-width: 40%;
 }
@@ -80,15 +85,6 @@ aside p {
     background-color: #68eb9f;
     cursor: pointer;
     font-size: 18px;
-}
-/* unvisited link */
-a:link {
-  color: rgb(255, 255, 255);
-}
-
-/* visited*/
-a:visited {
-  color: rgb(255, 249, 249);
 }
 
 /* mouse over link */
