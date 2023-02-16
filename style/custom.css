@@ -12,11 +12,11 @@ hgroup > :last-child {
   font-weight: 400;
 }
 
-p,dark-text {
+.dark-text {
   color: #171f27 !important;
 }
 
-p,light-text {
+.light-text {
   color: #bbc6ce !important;
 }
 
