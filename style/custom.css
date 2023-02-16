@@ -16,6 +16,10 @@ p,dark-text {
   color: #171f27 !important;
 }
 
+p,light-text {
+  color: #bbc6ce !important;
+}
+
 small {
   color: var(--muted-color);
 }
