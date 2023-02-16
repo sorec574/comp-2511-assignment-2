@@ -101,11 +101,10 @@ a:hover {
   background-color: #134E4A;
   color: #CCFBF1
 }
-input {
+.textarea,.comments,.select,.input {
   background-color: #FFFFFF;
   border: 1px solid #ced4da;
   border-radius: 0.375rem;
-  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(39 39 42 / 5%) 0px 4px 6px -1px, rgb(39 39 42 / 5%) 0px 2px 4px -2px;
 }
 .required:after {
     content:" *";
