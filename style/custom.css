@@ -12,18 +12,22 @@ hgroup > :last-child {
   font-weight: 400;
 }
 
+dark-text {
+  color: var(--dark-color);
+}
+
 small {
   color: var(--muted-color);
 }
 
 /* Header */
 .hero {
-  background-color: #171f27;
   background-position: center;
   background-size: cover;
 }
 .title {
-  text-shadow: 1px 2px 3px #1dcaad;
+  color: #171f27;
+  text-shadow: 1px 2px 3px #CCFBF1;
 }
 
 header {
