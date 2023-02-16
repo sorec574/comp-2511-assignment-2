@@ -13,7 +13,7 @@ hgroup > :last-child {
 }
 
 p,dark-text {
-  color: #171f27;
+  color: #171f27 !important;
 }
 
 small {
