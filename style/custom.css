@@ -13,7 +13,7 @@ hgroup > :last-child {
 }
 
 dark-text {
-  color: var(--dark-color);
+  color: #171f27;;
 }
 
 small {
@@ -93,12 +93,13 @@ aside p {
 
 /* mouse over link */
 a:hover {
-  color: rgb(56, 234, 247);
+  color: #CCFBF1;
 }
 /*colour change in hovering menu item*/
 .active, .bolts:hover {
-  background-color: #ff63dd;
-  color: rgb(183, 9, 252);
+  background-color: #134E4A;
+  color: #CCFBF1;
+  transition: all 0.5s ease-in-out 0s;
 }
 /*focus menu colour change*/
 .active, .academics, .arts, .sports {
