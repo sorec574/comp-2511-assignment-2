@@ -15,6 +15,49 @@
 
     <!-- Custom styles for this example -->
     <link rel="stylesheet" href="style/custom.css">
+
+    
+  <style>
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 590px) and (max-width: 790px) {
+      .grid {
+        /* grid in small devices */
+        grid-template-columns: 1fr;
+      }
+      nav ul {
+        flex-direction: column;
+        display: none;
+      }
+      nav.active ul {
+        display: flex;
+      }
+    }
+
+    /* Medium devices (tablets, 790px and up) */
+    @media (min-width: 790px) and (max-width: 991px) {
+
+      .grid {
+        /* grid in medium devices */
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    /* Large devices (desktops, 990px and up) */
+    @media (min-width: 990px) {
+      .container {
+        max-width: 790px;
+        margin: 0 auto;
+      }
+      .grid {
+        /* grid in large devices */
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .bg-color {
+        background-color: #f7f7f7;
+      }
+    }
+  </style>
+  
   </head>
 
   <body>
