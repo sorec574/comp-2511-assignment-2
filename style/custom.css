@@ -121,3 +121,26 @@ a:hover {
   p:nth-child(11) {
     color: #bbc6ce !important;
   }
+
+@media screen and (min-width: 576px) and (max-width: 790px) {
+
+  .max_width_40 {
+
+    max-width: 70%;
+  }
+
+  .hero {
+    background-size: cover;
+    background-position: center;
+  }
+
+  
+}
+
+@media screen and (min-width: 576px) and (max-width: 790px) {
+
+  .max_width_40 {
+    max-width: 70%;
+  }
+  
+}
