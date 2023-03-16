@@ -101,6 +101,7 @@ aside p {
   height: auto;
   background-color: #134E4A;
   color: #CCFBF1;
+  font-size: larger;
 }
 
 input:focus{
