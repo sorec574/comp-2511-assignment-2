@@ -85,8 +85,12 @@ aside p {
   margin-top: 0px;
 }
 input:focus{
-  background-color: #134E4A;
+  background-color: #00a398;
 
+}
+.bolts:focus{
+  background-color: #134E4A;
+  color: #CCFBF1;
 }
 .bolts {
     color: #134E4A;
