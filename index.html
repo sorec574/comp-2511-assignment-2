@@ -21,6 +21,7 @@
 
   <style>
     /* Small devices (landscape phones, 576px and up) */
+    
     @media (min-width: 590px) and (max-width: 790px) {
       .grid {
         /* grid in small devices */
@@ -60,7 +61,7 @@
     }
   </style>
   
-  <body>
+  <body tabindex="0">
 
     <!-- Hero -->
     <div class="hero" data-theme="dark" style="background-image: url('images/gradient-4.svg');">
@@ -227,7 +228,7 @@
 
           <!--email-->
           <label class="required" for="email">Email</label>
-            <input name="email" type="email" size="25" maxlength="64" pattern="[a-z0-9.!+'#/_%-^|]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="youremail@mtroyal.ca" required>
+            <input id="email" type="email" size="25" maxlength="64" pattern="[a-z0-9.!+'#/_%-^|]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="youremail@mtroyal.ca" required>
          
           <!--phone number-->
           <label>Phone Number
