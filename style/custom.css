@@ -93,6 +93,12 @@ aside p {
   overflow: hidden;
   background-color: #134E4A;
   color: #CCFBF1;
+  opacity: 0;
+}
+.skip:focus{
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
 }
 
 input:focus{
