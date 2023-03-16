@@ -84,7 +84,7 @@ aside p {
 .mt-0 {
   margin-top: 0px;
 }
-.skip{
+.skip:focus{
   position: absolute;
   left: -10000px;
   top: auto;
@@ -92,7 +92,7 @@ aside p {
   height: 1px;
   overflow: hidden;
   background-color: #ff0000;
-  color: #CCFBF1;
+  color: #00b68e;
 }
 input:focus{
   background-color: #00a398;
