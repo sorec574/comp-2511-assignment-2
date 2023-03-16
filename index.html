@@ -145,7 +145,7 @@
 
 
         <aside>
-          <a href="https://www.nature.com/articles/s41599-020-00573-0" aria-label="Example" ><img src="images/lab.png" alt="Robotics"></a>
+          <a href="https://www.nature.com/articles/s41599-020-00573-0" aria-label="Example" ><img src="images/lab.png" alt="Robotics in Junior High"></a>
           <p>
             <a href="https://www.nature.com/articles/s41599-020-00573-0" target="_blank">Robotics</a><br>
             <small>Let the children manipulate robot hardware (nuts and bolts)</small>
@@ -155,7 +155,7 @@
             <a href="https://www.nature.com/articles/s41599-020-00573-0" target="_blank">Robotics</a><br>
             <small>Explore simple circuits while discussing the inner workings of robots.</small>
           </p>
-          <a href="#" aria-label="Example" onclick="event.preventDefault()"><img src="images/lab3.jpg" alt="Robotics"></a>
+          <a href="#" aria-label="Example" onclick="event.preventDefault()"><img src="images/lab3.jpg" alt="Robotics in Middle School"></a>
           <p>
             <a href="#" onclick="event.preventDefault()">Robotics</a><br>
             <small>Make a paper robot and teach him to “climb” a string.</small>
@@ -226,7 +226,7 @@
           <input type="text" id="text" name="text" placeholder="Your name" maxlength="50" required>
 
           <!--email-->
-          <label class="required">Email </label>
+          <label class="required" for="email">Email</label>
             <input name="email" type="email" size="25" maxlength="64" pattern="[a-z0-9.!+'#/_%-^|]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="youremail@mtroyal.ca" required>
          
           <!--phone number-->
@@ -263,7 +263,7 @@
                 Search Engine
               </label>
               <label for="socialmedia">
-                <input type="checkbox" id="social media" name="socialmedia">
+                <input type="checkbox" id="socialmedia" name="socialmedia">
                 Social Media
               </label>
               <label for="ad">
@@ -283,23 +283,29 @@
           </div>
 
           <!--Radio buttons-->
-          <p>
-            Would You Like To Receive Newsletters?
-            <label> Yes
-              <input name="updates" type="radio" value="Yes" >
-              
-            </label>
-            <label> No
-              <input name="updates" type="radio" value="No">
-            </label>
+          <fieldset>
+            <legend>Would You Like To Receive Newsletters?</legend>
+              <div>
+                <label> Yes
+                  <input name="updates" type="radio" value="Yes" >
+                  
+                </label>
+              </div>
+              <div>
+                <label> No
+                  <input name="updates" type="radio" value="No">
+                </label>
+              </div>
+          </fieldset>
+
           </p>
           <!--Comments input-->
-          <label class="required">Comments </label>
+          <label for="comments" class="required">Comments </label>
           <textarea name="comments" required></textarea>
           <!-- Buttons -->
           <input type="submit" value="Submit" >
           <input type="reset" value="Clear" >
-
+         
         </form>
       </section><!-- ./ Form elements-->
 
