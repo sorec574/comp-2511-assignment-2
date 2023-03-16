@@ -96,9 +96,9 @@ aside p {
   opacity: 0;
 }
 .skip:focus{
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 1;
+  position: static;
+  width: auto;
+  height: auto;
 }
 
 input:focus{
